@@ -68,6 +68,7 @@ Nothing is listed for these yet. Ideas for developers, not projects that exist:
 - **Pipelines › Valorant**: Clutches and aces.
 - **Pipelines › League of Legends**: Team fights and objective steals.
 - **Pipelines › Rocket League**: Goals, saves and aerials.
+- **Pipelines › Grand Theft Auto**: Police chases, heists and role-play moments.
 - **Pipelines › Ice hockey**: Goals, saves and fights from NHL-style broadcasts.
 
 <!-- generated: end -->

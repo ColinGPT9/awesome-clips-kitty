@@ -378,6 +378,10 @@
      "title": "Fortnite"
     },
     {
+     "id": "gaming/grand-theft-auto",
+     "title": "Grand Theft Auto"
+    },
+    {
      "id": "sports",
      "title": "Sports"
     },
@@ -435,6 +439,10 @@
     {
      "idea": "Goals, saves and aerials.",
      "section": "gaming/rocket-league"
+    },
+    {
+     "idea": "Police chases, heists and role-play moments.",
+     "section": "gaming/grand-theft-auto"
     },
     {
      "idea": "Goals, saves and fights from NHL-style broadcasts.",
