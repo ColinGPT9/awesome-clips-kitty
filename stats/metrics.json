@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-07T15:27:21Z",
-  "github": {},
-  "huggingface": {},
-  "installs": {}
+ "generated_at": "2026-10-09T00:45:04Z",
+ "github": {
+  "ColinGPT9/clips-kitty-obs-plugin": {
+   "archived": false,
+   "has_discussions": false,
+   "pushed_at": "2026-09-14",
+   "stars": 0
+  },
+  "ColinGPT9/clips-studio": {
+   "archived": false,
+   "discussions": 0,
+   "has_discussions": true,
+   "pushed_at": "2026-10-09",
+   "stars": 93
+  }
+ },
+ "huggingface": {},
+ "installs": {}
 }
