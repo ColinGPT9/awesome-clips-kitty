@@ -1,0 +1,116 @@
+# Awesome Clips Kitty's check and build.
+#
+# The catalog is the small files in registry/. index.json (what the Clips Kitty
+# app reads) and the generated part of README.md are built from them with the
+# tools in the Clips Kitty repository, the same code the app checks a list
+# with. A listed plugin's manifest is fetched from GitHub at its commit as
+# plain text; nothing a plugin ships is installed or run here.
+#
+#   - a pull request: the catalog is built with the change, and an entry or
+#     listing that is refused fails the check, with the reason;
+#   - a push to main: index.json and README.md are rebuilt and committed;
+#   - Mondays, or run by hand: the numbers (GitHub stars and activity, Hugging
+#     Face downloads) are read again first. They are public figures those sites
+#     already keep.
+
+name: Catalog
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * 1'   # Mondays, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Entries and listings pass
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: This catalog, with the change
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          path: catalog
+          persist-credentials: false
+
+      - name: The build tools, from the Clips Kitty repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: ColinGPT9/clips-studio
+          path: tools
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.11'
+
+      - name: Install what the build needs
+        run: pip install --quiet "PyYAML>=6.0.3,<7"
+
+      - name: Build the catalog with this change
+        # Written to a scratch file: the real index.json is rebuilt after the merge.
+        run: python tools/scripts/build_registry_index.py --catalog catalog --out "$RUNNER_TEMP/index.json"
+
+  build:
+    name: Rebuild index.json and README.md
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # it commits the rebuilt files back to this repository
+    concurrency:
+      group: catalog-build
+      cancel-in-progress: false
+    steps:
+      - name: This catalog, as main is now
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+          path: catalog
+
+      - name: The build tools, from the Clips Kitty repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: ColinGPT9/clips-studio
+          path: tools
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.11'
+
+      - name: Install what the build needs
+        run: pip install --quiet "PyYAML>=6.0.3,<7"
+
+      - name: Read the numbers
+        if: github.event_name != 'push'
+        env:
+          # Read-only use: stars, last push and discussion counts of public repositories.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/scripts/update_registry_metrics.py --catalog catalog
+
+      - name: Build index.json and README.md
+        run: python tools/scripts/build_registry_index.py --catalog catalog
+
+      - name: Commit if anything changed
+        working-directory: catalog
+        env:
+          WHY: ${{ github.event_name }}
+        run: |
+          if git diff --quiet -- index.json README.md stats; then
+            echo "Nothing to rebuild."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.json README.md stats
+          if [ "$WHY" = "push" ]; then
+            git commit -m "Rebuild index.json and README.md"
+          else
+            git commit -m "Numbers for $(date -u +%Y-%m-%d)"
+          fi
+          git push
