@@ -39,7 +39,7 @@ The numbers measure different things and are never added together: Clips Kitty i
 
 _Pipelines for any kind of video._
 
-- [Loud moments, cut on scene changes (example)](https://github.com/ColinGPT9/clips-studio/tree/HEAD/examples/pipelines/scene-cut-highlights) - An example pipeline. It finds stretches that are clearly louder than the rest of the video and starts each clip on the nearest scene cut before it, using FFmpeg only. It knows nothing about what is happening on screen: loud is not always interesting, and quiet highlights are missed. `MIT` · ✓ Official · ✓ Compatible · ★ 93 on GitHub
+- [Loud moments, cut on scene changes (example)](https://github.com/ColinGPT9/clips-studio/tree/HEAD/examples/pipelines/scene-cut-highlights) - An example pipeline. It finds stretches that are clearly louder than the rest of the video and starts each clip on the nearest scene cut before it, using FFmpeg only. It knows nothing about what is happening on screen: loud is not always interesting, and quiet highlights are missed. `MIT` · ✓ Official · ✓ Compatible · ★ 95 on GitHub
 
 ## Integrations
 
@@ -49,13 +49,13 @@ _Pipelines for any kind of video._
 
 ### AI assistants
 
-- [Clips Kitty MCP server and agent skill](https://github.com/ColinGPT9/clips-studio#ask-an-ai-agent-to-do-it) - Lets Claude, Cursor or any MCP client make clips from a link or a file, follow the job and read back the clips, through Clips Kitty's local API. Its tools can also post clips through the accounts connected in Clips Kitty. Ships with Clips Kitty. `AGPL-3.0-or-later` · ✓ Official · runs locally · ★ 93 on GitHub
+- [Clips Kitty MCP server and agent skill](https://github.com/ColinGPT9/clips-studio#ask-an-ai-agent-to-do-it) - Lets Claude, Cursor or any MCP client make clips from a link or a file, follow the job and read back the clips, through Clips Kitty's local API. Its tools can also post clips through the accounts connected in Clips Kitty. Ships with Clips Kitty. `AGPL-3.0-or-later` · ✓ Official · runs locally · ★ 95 on GitHub
 
 ## Tools
 
 ### For developers
 
-- [Clips Kitty SDK for Python](https://github.com/ColinGPT9/clips-studio/tree/HEAD/sdk/python) - Write, check and test Clips Kitty plugins - the manifest validator, a local test host, and a client for the local API. MIT-licensed, so using it puts no licence on your plugin. `MIT` · ✓ Official · runs locally · ★ 93 on GitHub
+- [Clips Kitty SDK for Python](https://github.com/ColinGPT9/clips-studio/tree/HEAD/sdk/python) - Write, check and test Clips Kitty plugins - the manifest validator, a local test host, and a client for the local API. MIT-licensed, so using it puts no licence on your plugin. `MIT` · ✓ Official · runs locally · ★ 95 on GitHub
 
 ## Wanted
 

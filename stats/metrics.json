@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T00:45:04Z",
+ "generated_at": "2026-10-12T14:39:04Z",
  "github": {
   "ColinGPT9/clips-kitty-obs-plugin": {
    "archived": false,
@@ -9,10 +9,10 @@
   },
   "ColinGPT9/clips-studio": {
    "archived": false,
-   "discussions": 0,
+   "discussions": 1,
    "has_discussions": true,
-   "pushed_at": "2026-10-09",
-   "stars": 93
+   "pushed_at": "2026-10-11",
+   "stars": 95
   }
  },
  "huggingface": {},

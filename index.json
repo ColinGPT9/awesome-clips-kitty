@@ -15,10 +15,10 @@
    "metrics": {
     "github": {
      "archived": false,
-     "discussions": 0,
+     "discussions": 1,
      "has_discussions": true,
-     "pushed_at": "2026-10-09",
-     "stars": 93
+     "pushed_at": "2026-10-11",
+     "stars": 95
     }
    },
    "name": "Clips Kitty MCP server and agent skill",
@@ -95,10 +95,10 @@
    "metrics": {
     "github": {
      "archived": false,
-     "discussions": 0,
+     "discussions": 1,
      "has_discussions": true,
-     "pushed_at": "2026-10-09",
-     "stars": 93
+     "pushed_at": "2026-10-11",
+     "stars": 95
     }
    },
    "name": "Clips Kitty SDK for Python",
@@ -125,7 +125,7 @@
   }
  ],
  "format": 1,
- "metrics_at": "2026-10-09",
+ "metrics_at": "2026-10-12",
  "plugins": [
   {
    "added": "2026-10-07",
@@ -163,10 +163,10 @@
    "metrics": {
     "github": {
      "archived": false,
-     "discussions": 0,
+     "discussions": 1,
      "has_discussions": true,
-     "pushed_at": "2026-10-09",
-     "stars": 93
+     "pushed_at": "2026-10-11",
+     "stars": 95
     }
    },
    "name": "Loud moments, cut on scene changes (example)",
