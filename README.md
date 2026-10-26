@@ -46,7 +46,7 @@ _Pipelines for any kind of video._
 
 _Added by their authors and not yet checked against the inclusion criteria._
 
-- [Grand Theft Auto 6 Clips Kitty Plugin](https://github.com/ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin) - An unofficial, independently developed GTA-style highlight pipeline. Finds explicit chase, crash, stunt, combat, dialogue and reaction cues in the host transcript, corroborated by measured picture and sound changes and permitted viewer nominations. It does not recognize vehicles or police from pixels and has not been validated on GTA VI gameplay. Rendering stays in Clips Kitty. `MIT` · ✓ Official · ★ 1 on GitHub
+- [Grand Theft Auto 6 Clips Kitty Plugin](https://github.com/ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin) - An unofficial, independently developed GTA-style highlight pipeline. Finds explicit chase, crash, stunt, combat and reaction cues, plus source-grounded dialogue suggestions from the existing local model. Uses the host transcript, measured picture and sound changes and permitted viewer nominations. It does not recognize vehicles or police from pixels and has not been validated on GTA VI gameplay. Rendering stays in Clips Kitty. `MIT` · ✓ Official · ★ 1 on GitHub
 
 ## Integrations
 
