@@ -1,6 +1,12 @@
 {
- "generated_at": "2026-10-19T12:23:25Z",
+ "generated_at": "2026-10-26T12:25:24Z",
  "github": {
+  "ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin": {
+   "archived": false,
+   "has_discussions": false,
+   "pushed_at": "2026-10-26",
+   "stars": 1
+  },
   "ColinGPT9/clips-kitty-obs-plugin": {
    "archived": false,
    "has_discussions": false,
@@ -11,8 +17,8 @@
    "archived": false,
    "discussions": 1,
    "has_discussions": true,
-   "pushed_at": "2026-10-19",
-   "stars": 121
+   "pushed_at": "2026-10-26",
+   "stars": 152
   }
  },
  "huggingface": {},

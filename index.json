@@ -17,8 +17,8 @@
      "archived": false,
      "discussions": 1,
      "has_discussions": true,
-     "pushed_at": "2026-10-19",
-     "stars": 121
+     "pushed_at": "2026-10-26",
+     "stars": 152
     }
    },
    "name": "Clips Kitty MCP server and agent skill",
@@ -97,8 +97,8 @@
      "archived": false,
      "discussions": 1,
      "has_discussions": true,
-     "pushed_at": "2026-10-19",
-     "stars": 121
+     "pushed_at": "2026-10-26",
+     "stars": 152
     }
    },
    "name": "Clips Kitty SDK for Python",
@@ -125,7 +125,7 @@
   }
  ],
  "format": 1,
- "metrics_at": "2026-10-19",
+ "metrics_at": "2026-10-26",
  "plugins": [
   {
    "added": "2026-10-07",
@@ -165,8 +165,8 @@
      "archived": false,
      "discussions": 1,
      "has_discussions": true,
-     "pushed_at": "2026-10-19",
-     "stars": 121
+     "pushed_at": "2026-10-26",
+     "stars": 152
     }
    },
    "name": "Loud moments, cut on scene changes (example)",
@@ -300,7 +300,14 @@
    "kind": "pipeline",
    "latest": "0.3.0",
    "license": "MIT",
-   "metrics": {},
+   "metrics": {
+    "github": {
+     "archived": false,
+     "has_discussions": false,
+     "pushed_at": "2026-10-26",
+     "stars": 1
+    }
+   },
    "name": "Grand Theft Auto 6 Clips Kitty Plugin",
    "network": [],
    "outputs": [
