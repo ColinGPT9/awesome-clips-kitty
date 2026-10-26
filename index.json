@@ -250,6 +250,176 @@
      "version": "1.0.0"
     }
    ]
+  },
+  {
+   "added": "2026-10-26",
+   "aliases": [
+    "GTA 6",
+    "GTA VI",
+    "GTA V",
+    "GTA highlights"
+   ],
+   "author": {
+    "name": "ColinGPT9"
+   },
+   "badges": [
+    "official"
+   ],
+   "capability": "highlight_detection",
+   "category": "gaming",
+   "checks": {
+    "commit_on_branch": true,
+    "commit_pinned": true,
+    "manifest_valid": true,
+    "public_at_commit": true,
+    "publisher_is_repository_owner": true
+   },
+   "description": "An unofficial, independently developed GTA-style highlight pipeline. Finds explicit chase, crash, stunt, combat, dialogue and reaction cues in the host transcript, corroborated by measured picture and sound changes and permitted viewer nominations. It does not recognize vehicles or police from pixels and has not been validated on GTA VI gameplay. Rendering stays in Clips Kitty.\n",
+   "events": [
+    "chase",
+    "crash",
+    "stunt",
+    "combat",
+    "npc_chaos",
+    "funny_dialogue",
+    "roleplay",
+    "reaction"
+   ],
+   "execution": "local",
+   "games": [
+    "grand-theft-auto-vi",
+    "grand-theft-auto-v"
+   ],
+   "id": "colingpt9/gta-vi-highlights",
+   "inputs": [
+    "video",
+    "transcript",
+    "moments"
+   ],
+   "kind": "pipeline",
+   "latest": "0.2.0",
+   "license": "MIT",
+   "metrics": {},
+   "name": "Grand Theft Auto 6 Clips Kitty Plugin",
+   "network": [],
+   "outputs": [
+    "ranges",
+    "context",
+    "ratings",
+    "edits"
+   ],
+   "path": ".",
+   "permissions": [
+    "video.read",
+    "transcript.read",
+    "ffmpeg",
+    "ollama",
+    "twitch.context.read"
+   ],
+   "publisher": "colingpt9",
+   "relationship": "built-for",
+   "repository": "https://github.com/ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin",
+   "requirements": {
+    "gpu": "none",
+    "os": [
+     "windows",
+     "macos",
+     "linux"
+    ]
+   },
+   "run": {
+    "command": [
+     "{python}",
+     "src/main.py"
+    ],
+    "timeout_minutes": 30
+   },
+   "section": "gaming/grand-theft-auto",
+   "sends": [],
+   "settings": {
+    "enabled_categories": {
+     "title": "Categories separated by commas; leave empty for all",
+     "type": "string"
+    },
+    "lead_in": {
+     "title": "Seconds of setup to preserve",
+     "type": "number"
+    },
+    "louder_by_db": {
+     "title": "Audio increase above its surroundings",
+     "type": "number"
+    },
+    "max_highlights": {
+     "title": "Maximum highlights per video",
+     "type": "integer"
+    },
+    "min_confidence": {
+     "title": "Minimum evidence confidence",
+     "type": "number"
+    },
+    "min_score": {
+     "title": "Minimum evidence score",
+     "type": "number"
+    },
+    "motion_threshold": {
+     "title": "Minimum sampled picture difference",
+     "type": "number"
+    },
+    "payoff": {
+     "title": "Seconds of payoff and reaction to preserve",
+     "type": "number"
+    },
+    "roleplay_enabled": {
+     "title": "This source actually contains roleplay",
+     "type": "boolean"
+    },
+    "sample_fps": {
+     "title": "Picture samples per second",
+     "type": "number"
+    },
+    "title_overlay": {
+     "title": "Suggest a short factual event label on the video",
+     "type": "boolean"
+    },
+    "trim_to_event": {
+     "title": "Suggest bounded trims while preserving setup and reaction",
+     "type": "boolean"
+    },
+    "use_local_model": {
+     "title": "Ask the existing local model to review grounded candidates",
+     "type": "boolean"
+    },
+    "use_media": {
+     "title": "Measure picture and audio changes as supporting evidence",
+     "type": "boolean"
+    },
+    "use_nominations": {
+     "title": "Use permitted viewer nominations with verified timing",
+     "type": "boolean"
+    },
+    "write_report": {
+     "title": "Save a local explanation report alongside this job",
+     "type": "boolean"
+    }
+   },
+   "versions": [
+    {
+     "commit": "0ce46132e7d8b8b34950f9c46953a4ee80448302",
+     "permissions": [
+      "video.read",
+      "transcript.read",
+      "ffmpeg",
+      "ollama",
+      "twitch.context.read"
+     ],
+     "requires": {
+      "clips_kitty": ">=2.1.0",
+      "plugin_api": 1
+     },
+     "tag": "v0.2.0",
+     "version": "0.2.0"
+    }
+   ]
   }
  ],
  "sections": {
