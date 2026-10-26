@@ -8,3 +8,5 @@ versions:
   - version: 0.2.0
     commit: 0ce46132e7d8b8b34950f9c46953a4ee80448302
     tag: v0.2.0
+  - version: 0.3.0
+    commit: 229d53434262305a3c5222b4834b33311eee207f
