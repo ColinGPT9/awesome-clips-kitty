@@ -283,7 +283,8 @@
     "npc_chaos",
     "funny_dialogue",
     "roleplay",
-    "reaction"
+    "reaction",
+    "milestone"
    ],
    "execution": "local",
    "games": [
@@ -297,7 +298,7 @@
     "moments"
    ],
    "kind": "pipeline",
-   "latest": "0.2.0",
+   "latest": "0.3.0",
    "license": "MIT",
    "metrics": {},
    "name": "Grand Theft Auto 6 Clips Kitty Plugin",
@@ -403,6 +404,21 @@
     }
    },
    "versions": [
+    {
+     "commit": "229d53434262305a3c5222b4834b33311eee207f",
+     "permissions": [
+      "video.read",
+      "transcript.read",
+      "ffmpeg",
+      "ollama",
+      "twitch.context.read"
+     ],
+     "requires": {
+      "clips_kitty": ">=2.1.0",
+      "plugin_api": 1
+     },
+     "version": "0.3.0"
+    },
     {
      "commit": "0ce46132e7d8b8b34950f9c46953a4ee80448302",
      "permissions": [
