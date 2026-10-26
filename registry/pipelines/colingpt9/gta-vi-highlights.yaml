@@ -1,0 +1,10 @@
+id: colingpt9/gta-vi-highlights
+repository: https://github.com/ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin
+path: .
+section: gaming/grand-theft-auto
+aliases: [GTA 6, GTA VI, GTA V, GTA highlights]
+added: 2026-10-26
+versions:
+  - version: 0.2.0
+    commit: 0ce46132e7d8b8b34950f9c46953a4ee80448302
+    tag: v0.2.0
