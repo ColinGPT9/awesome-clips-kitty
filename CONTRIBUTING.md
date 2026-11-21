@@ -56,7 +56,7 @@ Every entry says one of two things, and they never blur:
 | `relationship` | Means | Where |
 |---|---|---|
 | `built-for` | Runs inside Clips Kitty: a pipeline or plugin installed from the Marketplace. | Listings in `pipelines/` and `plugins/`; set automatically. |
-| `built-with` | A separate app or tool that uses Clips Kitty's local API or SDK. Say which with `uses: api`, `sdk` or `both`. | Any other kind. |
+| `built-with` | A separate app or tool that uses Clips Kitty's local API or SDK, or is built from Clips Kitty's own code. Say which with `uses: api`, `sdk`, `both` or `code`. | Any other kind. |
 
 An app and a pipeline are different things: an **app** stands on its own and uses Clips Kitty's API or SDK; a **pipeline** runs inside Clips Kitty. Like how another clipping app picks its moments? Write a pipeline that picks them that way inside Clips Kitty, name that project in the manifest's `based_on`, keep its licence notice, and list the pipeline. A link to the other app is not an entry.
 
@@ -86,7 +86,7 @@ setup: installer                         # optional: installer (download and run
 tags: [subtitles, face tracking]         # optional: up to 10 short words people search for
 games: [example-game]                    # optional: games it covers
 sports: [soccer]                         # optional: sports it covers
-uses: api                                # required: api, sdk or both
+uses: api                                # required: api, sdk, both, or code (built from Clips Kitty's own code)
 warning: Downloads videos from sites whose terms may not allow it.   # optional: shown with a ⚠
 added: 2026-10-07                        # required
 checked: 2026-10-07                      # set by a maintainer once it meets the criteria
