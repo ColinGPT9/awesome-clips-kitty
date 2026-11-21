@@ -24,6 +24,8 @@ The numbers measure different things and are never added together: Clips Kitty i
 
 ## Contents
 
+- [Apps](#apps)
+  - [Built with Clips Kitty](#built-with-clips-kitty)
 - [Pipelines](#pipelines)
   - [General](#general)
   - [Not yet checked (pipelines)](#not-yet-checked-pipelines)
@@ -33,6 +35,16 @@ The numbers measure different things and are never added together: Clips Kitty i
 - [Tools](#tools)
   - [For developers](#for-developers)
 - [Wanted](#wanted)
+
+## Apps
+
+### Built with Clips Kitty
+
+_Complete applications that use the Clips Kitty API or SDK, or are built from its code._
+
+- [Clips Kitty Autopilot](https://github.com/ColinGPT9/clips-kitty-autopilot) - A self-hosted web app that watches a Twitch channel's viewer-made clips, makes the ones that reach your view target into whole vertical clips, and schedules them to your social accounts after you approve. Started from Clips Kitty's code; you bring your own keys. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python)
+- [Clips Kitty Basketball with NVIDIA Nemotron](https://github.com/ColinGPT9/clips-kitty-nebius-basketball) - An edition of Clips Kitty whose Sports > Basketball pipeline uses NVIDIA Nemotron on Nebius Token Factory, on your own key, to pick the plays and write the titles. One NBA game cost under a cent. Built for the Nebius x NVIDIA Global AI Hackathon. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python)
+- [Clips Kitty Game Day](https://github.com/ColinGPT9/clips-kitty-gameday) - Turns a basketball game into vertical clips with Meta's models (Muse Voice Transcribe, Muse Spark and SAM 3.1), and asks on your phone before posting to Instagram and Facebook. An edition of Clips Kitty, built for the Meta Global AI Developer Hackathon. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python)
 
 ## Pipelines
 

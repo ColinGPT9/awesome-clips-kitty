@@ -2,6 +2,119 @@
  "blocklist": [],
  "catalog": [
   {
+   "added": "2026-11-20",
+   "badges": [
+    "official"
+   ],
+   "checked": "2026-11-20",
+   "description": "A self-hosted web app that watches a Twitch channel's viewer-made clips, makes the ones that reach your view target into whole vertical clips, and schedules them to your social accounts after you approve. Started from Clips Kitty's code; you bring your own keys.",
+   "id": "apps/clips-kitty-autopilot",
+   "kind": "app",
+   "license": "AGPL-3.0-or-later",
+   "metrics": {},
+   "name": "Clips Kitty Autopilot",
+   "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "web"
+   ],
+   "relationship": "built-with",
+   "runs": "both",
+   "section": "built-with",
+   "setup": "technical",
+   "slug": "clips-kitty-autopilot",
+   "source": {
+    "github": "https://github.com/ColinGPT9/clips-kitty-autopilot"
+   },
+   "tags": [
+    "twitch",
+    "twitch-clips",
+    "automation",
+    "self-hosted",
+    "scheduling",
+    "vertical-video"
+   ],
+   "uses": "code"
+  },
+  {
+   "added": "2026-11-20",
+   "badges": [
+    "official"
+   ],
+   "checked": "2026-11-20",
+   "description": "Turns a basketball game into vertical clips with Meta's models (Muse Voice Transcribe, Muse Spark and SAM 3.1), and asks on your phone before posting to Instagram and Facebook. An edition of Clips Kitty, built for the Meta Global AI Developer Hackathon.",
+   "id": "apps/clips-kitty-gameday",
+   "kind": "app",
+   "license": "AGPL-3.0-or-later",
+   "metrics": {},
+   "name": "Clips Kitty Game Day",
+   "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "web"
+   ],
+   "relationship": "built-with",
+   "runs": "both",
+   "section": "built-with",
+   "setup": "technical",
+   "slug": "clips-kitty-gameday",
+   "source": {
+    "github": "https://github.com/ColinGPT9/clips-kitty-gameday"
+   },
+   "sports": [
+    "basketball"
+   ],
+   "tags": [
+    "basketball",
+    "highlights",
+    "meta",
+    "instagram",
+    "facebook",
+    "hackathon"
+   ],
+   "uses": "code"
+  },
+  {
+   "added": "2026-11-20",
+   "badges": [
+    "official"
+   ],
+   "checked": "2026-11-20",
+   "description": "An edition of Clips Kitty whose Sports > Basketball pipeline uses NVIDIA Nemotron on Nebius Token Factory, on your own key, to pick the plays and write the titles. One NBA game cost under a cent. Built for the Nebius x NVIDIA Global AI Hackathon.",
+   "id": "apps/clips-kitty-nebius-basketball",
+   "kind": "app",
+   "license": "AGPL-3.0-or-later",
+   "metrics": {},
+   "name": "Clips Kitty Basketball with NVIDIA Nemotron",
+   "platforms": [
+    "windows",
+    "macos",
+    "linux"
+   ],
+   "relationship": "built-with",
+   "runs": "both",
+   "section": "built-with",
+   "setup": "technical",
+   "slug": "clips-kitty-nebius-basketball",
+   "source": {
+    "github": "https://github.com/ColinGPT9/clips-kitty-nebius-basketball"
+   },
+   "sports": [
+    "basketball"
+   ],
+   "tags": [
+    "basketball",
+    "highlights",
+    "nvidia",
+    "nemotron",
+    "nebius",
+    "hackathon"
+   ],
+   "uses": "code"
+  },
+  {
    "added": "2026-10-07",
    "badges": [
     "official"
@@ -482,7 +595,7 @@
   "app": {
    "sections": [
     {
-     "description": "Complete applications that use the Clips Kitty API or SDK.",
+     "description": "Complete applications that use the Clips Kitty API or SDK, or are built from its code.",
      "id": "built-with",
      "title": "Built with Clips Kitty"
     }
