@@ -8,7 +8,7 @@ app:
   sections:
     - id: built-with
       title: Built with Clips Kitty
-      description: Complete applications that use the Clips Kitty API or SDK.
+      description: Complete applications that use the Clips Kitty API or SDK, or are built from its code.
       relationship: built-with
 
 pipeline:

@@ -1,0 +1,15 @@
+name: Clips Kitty Game Day
+description: Turns a basketball game into vertical clips with Meta's models (Muse Voice Transcribe, Muse Spark and SAM 3.1), and asks on your phone before posting to Instagram and Facebook. An edition of Clips Kitty, built for the Meta Global AI Developer Hackathon.
+section: built-with
+relationship: built-with
+uses: code
+license: AGPL-3.0-or-later
+source:
+  github: https://github.com/ColinGPT9/clips-kitty-gameday
+platforms: [windows, macos, linux, web]
+runs: both
+setup: technical
+sports: [basketball]
+tags: [basketball, highlights, meta, instagram, facebook, hackathon]
+added: 2026-11-20
+checked: 2026-11-20

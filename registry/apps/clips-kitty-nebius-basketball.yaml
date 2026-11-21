@@ -1,0 +1,15 @@
+name: Clips Kitty Basketball with NVIDIA Nemotron
+description: An edition of Clips Kitty whose Sports > Basketball pipeline uses NVIDIA Nemotron on Nebius Token Factory, on your own key, to pick the plays and write the titles. One NBA game cost under a cent. Built for the Nebius x NVIDIA Global AI Hackathon.
+section: built-with
+relationship: built-with
+uses: code
+license: AGPL-3.0-or-later
+source:
+  github: https://github.com/ColinGPT9/clips-kitty-nebius-basketball
+platforms: [windows, macos, linux]
+runs: both
+setup: technical
+sports: [basketball]
+tags: [basketball, highlights, nvidia, nemotron, nebius, hackathon]
+added: 2026-11-20
+checked: 2026-11-20

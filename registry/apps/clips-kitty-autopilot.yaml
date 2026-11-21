@@ -1,0 +1,14 @@
+name: Clips Kitty Autopilot
+description: A self-hosted web app that watches a Twitch channel's viewer-made clips, makes the ones that reach your view target into whole vertical clips, and schedules them to your social accounts after you approve. Started from Clips Kitty's code; you bring your own keys.
+section: built-with
+relationship: built-with
+uses: code
+license: AGPL-3.0-or-later
+source:
+  github: https://github.com/ColinGPT9/clips-kitty-autopilot
+platforms: [windows, macos, linux, web]
+runs: both
+setup: technical
+tags: [twitch, twitch-clips, automation, self-hosted, scheduling, vertical-video]
+added: 2026-11-20
+checked: 2026-11-20
