@@ -380,6 +380,7 @@
    ],
    "capability": "highlight_detection",
    "category": "gaming",
+   "checked": "2026-11-20",
    "checks": {
     "commit_on_branch": true,
     "commit_pinned": true,
@@ -778,10 +779,6 @@
     {
      "idea": "Goals, saves and aerials.",
      "section": "gaming/rocket-league"
-    },
-    {
-     "idea": "Police chases, heists and role-play moments.",
-     "section": "gaming/grand-theft-auto"
     },
     {
      "idea": "Goals, saves and fights from NHL-style broadcasts.",

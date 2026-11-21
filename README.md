@@ -28,7 +28,8 @@ The numbers measure different things and are never added together: Clips Kitty i
   - [Built with Clips Kitty](#built-with-clips-kitty)
 - [Pipelines](#pipelines)
   - [General](#general)
-  - [Not yet checked (pipelines)](#not-yet-checked-pipelines)
+  - [Gaming](#gaming)
+    - [Grand Theft Auto](#grand-theft-auto)
 - [Integrations](#integrations)
   - [Streaming](#streaming)
   - [AI assistants](#ai-assistants)
@@ -54,9 +55,9 @@ _Pipelines for any kind of video._
 
 - [Loud moments, cut on scene changes (example)](https://github.com/ColinGPT9/clips-studio/tree/HEAD/examples/pipelines/scene-cut-highlights) - An example pipeline. It finds stretches that are clearly louder than the rest of the video and starts each clip on the nearest scene cut before it, using FFmpeg only. It knows nothing about what is happening on screen: loud is not always interesting, and quiet highlights are missed. `MIT` · ✓ Official · ✓ Compatible · ★ 272 on GitHub
 
-### Not yet checked (pipelines)
+### Gaming
 
-_Added by their authors and not yet checked against the inclusion criteria._
+#### Grand Theft Auto
 
 - [Grand Theft Auto 6 Clips Kitty Plugin](https://github.com/ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin) - An unofficial, independently developed GTA-style highlight pipeline. Finds explicit chase, crash, stunt, combat and reaction cues, plus source-grounded dialogue suggestions from the existing local model. Uses the host transcript, measured picture and sound changes and permitted viewer nominations. It does not recognize vehicles or police from pixels and has not been validated on GTA VI gameplay. Rendering stays in Clips Kitty. `MIT` · ✓ Official · ★ 4 on GitHub
 
@@ -87,7 +88,6 @@ Nothing is listed for these yet. Ideas for developers, not projects that exist:
 - **Pipelines › Valorant**: Clutches and aces.
 - **Pipelines › League of Legends**: Team fights and objective steals.
 - **Pipelines › Rocket League**: Goals, saves and aerials.
-- **Pipelines › Grand Theft Auto**: Police chases, heists and role-play moments.
 - **Pipelines › Ice hockey**: Goals, saves and fights from NHL-style broadcasts.
 
 <!-- generated: end -->
