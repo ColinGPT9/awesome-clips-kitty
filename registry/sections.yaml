@@ -68,8 +68,6 @@ pipeline:
       idea: Team fights and objective steals.
     - section: gaming/rocket-league
       idea: Goals, saves and aerials.
-    - section: gaming/grand-theft-auto
-      idea: Police chases, heists and role-play moments.
     - section: sports/hockey
       idea: Goals, saves and fights from NHL-style broadcasts.
 
