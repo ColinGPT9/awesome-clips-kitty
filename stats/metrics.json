@@ -1,24 +1,48 @@
 {
- "generated_at": "2026-11-16T15:02:01Z",
+ "generated_at": "2026-11-23T17:34:01Z",
  "github": {
   "ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin": {
    "archived": false,
    "has_discussions": false,
-   "pushed_at": "2026-10-28",
-   "stars": 4
+   "pushed_at": "2026-11-21",
+   "stars": 50
+  },
+  "ColinGPT9/clips-kitty-autopilot": {
+   "archived": false,
+   "has_discussions": false,
+   "pushed_at": "2026-11-02",
+   "stars": 0
+  },
+  "ColinGPT9/clips-kitty-editor": {
+   "archived": false,
+   "has_discussions": false,
+   "pushed_at": "2026-11-23",
+   "stars": 0
+  },
+  "ColinGPT9/clips-kitty-gameday": {
+   "archived": false,
+   "has_discussions": false,
+   "pushed_at": "2026-11-04",
+   "stars": 3
+  },
+  "ColinGPT9/clips-kitty-nebius-basketball": {
+   "archived": false,
+   "has_discussions": false,
+   "pushed_at": "2026-10-29",
+   "stars": 3
   },
   "ColinGPT9/clips-kitty-obs-plugin": {
    "archived": false,
    "has_discussions": false,
    "pushed_at": "2026-09-14",
-   "stars": 0
+   "stars": 1
   },
   "ColinGPT9/clips-studio": {
    "archived": false,
    "discussions": 4,
    "has_discussions": true,
-   "pushed_at": "2026-11-16",
-   "stars": 272
+   "pushed_at": "2026-11-23",
+   "stars": 621
   }
  },
  "huggingface": {},

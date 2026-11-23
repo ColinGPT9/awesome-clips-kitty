@@ -11,7 +11,14 @@
    "id": "apps/clips-kitty-autopilot",
    "kind": "app",
    "license": "AGPL-3.0-or-later",
-   "metrics": {},
+   "metrics": {
+    "github": {
+     "archived": false,
+     "has_discussions": false,
+     "pushed_at": "2026-11-02",
+     "stars": 0
+    }
+   },
    "name": "Clips Kitty Autopilot",
    "platforms": [
     "windows",
@@ -48,7 +55,14 @@
    "kind": "app",
    "license": "AGPL-3.0-or-later",
    "license_note": "A modified build of Concat by jub0t, renamed as Concat's trademark policy asks. Concat's licence and notices are kept. Not made or endorsed by Concat's authors.",
-   "metrics": {},
+   "metrics": {
+    "github": {
+     "archived": false,
+     "has_discussions": false,
+     "pushed_at": "2026-11-23",
+     "stars": 0
+    }
+   },
    "name": "Clips Kitty Editor",
    "platforms": [
     "windows"
@@ -80,7 +94,14 @@
    "id": "apps/clips-kitty-gameday",
    "kind": "app",
    "license": "AGPL-3.0-or-later",
-   "metrics": {},
+   "metrics": {
+    "github": {
+     "archived": false,
+     "has_discussions": false,
+     "pushed_at": "2026-11-04",
+     "stars": 3
+    }
+   },
    "name": "Clips Kitty Game Day",
    "platforms": [
     "windows",
@@ -119,7 +140,14 @@
    "id": "apps/clips-kitty-nebius-basketball",
    "kind": "app",
    "license": "AGPL-3.0-or-later",
-   "metrics": {},
+   "metrics": {
+    "github": {
+     "archived": false,
+     "has_discussions": false,
+     "pushed_at": "2026-10-29",
+     "stars": 3
+    }
+   },
    "name": "Clips Kitty Basketball with NVIDIA Nemotron",
    "platforms": [
     "windows",
@@ -163,8 +191,8 @@
      "archived": false,
      "discussions": 4,
      "has_discussions": true,
-     "pushed_at": "2026-11-16",
-     "stars": 272
+     "pushed_at": "2026-11-23",
+     "stars": 621
     }
    },
    "name": "Clips Kitty MCP server and agent skill",
@@ -204,7 +232,7 @@
      "archived": false,
      "has_discussions": false,
      "pushed_at": "2026-09-14",
-     "stars": 0
+     "stars": 1
     }
    },
    "name": "Clips Kitty OBS Plugin",
@@ -243,8 +271,8 @@
      "archived": false,
      "discussions": 4,
      "has_discussions": true,
-     "pushed_at": "2026-11-16",
-     "stars": 272
+     "pushed_at": "2026-11-23",
+     "stars": 621
     }
    },
    "name": "Clips Kitty SDK for Python",
@@ -271,7 +299,7 @@
   }
  ],
  "format": 1,
- "metrics_at": "2026-11-16",
+ "metrics_at": "2026-11-23",
  "plugins": [
   {
    "added": "2026-10-07",
@@ -311,8 +339,8 @@
      "archived": false,
      "discussions": 4,
      "has_discussions": true,
-     "pushed_at": "2026-11-16",
-     "stars": 272
+     "pushed_at": "2026-11-23",
+     "stars": 621
     }
    },
    "name": "Loud moments, cut on scene changes (example)",
@@ -452,8 +480,8 @@
     "github": {
      "archived": false,
      "has_discussions": false,
-     "pushed_at": "2026-10-28",
-     "stars": 4
+     "pushed_at": "2026-11-21",
+     "stars": 50
     }
    },
    "name": "Grand Theft Auto 6 Clips Kitty Plugin",

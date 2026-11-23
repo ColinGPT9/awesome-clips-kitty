@@ -43,11 +43,11 @@ The numbers measure different things and are never added together: Clips Kitty i
 
 _Complete applications that use the Clips Kitty API or SDK, or are built from its code._
 
-- [Clips Kitty Autopilot](https://github.com/ColinGPT9/clips-kitty-autopilot) - A self-hosted web app that watches a Twitch channel's viewer-made clips, makes the ones that reach your view target into whole vertical clips, and schedules them to your social accounts after you approve. Started from Clips Kitty's code; you bring your own keys. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python)
-- [Clips Kitty Basketball with NVIDIA Nemotron](https://github.com/ColinGPT9/clips-kitty-nebius-basketball) - An edition of Clips Kitty whose Sports > Basketball pipeline uses NVIDIA Nemotron on Nebius Token Factory, on your own key, to pick the plays and write the titles. One NBA game cost under a cent. Built for the Nebius x NVIDIA Global AI Hackathon. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python)
-- [Clips Kitty Editor](https://github.com/ColinGPT9/clips-kitty-editor) - The video editor inside Clips Kitty's Editor page. Open a clip, then cut it on a timeline with captions, text, keyframes and effects, and export it back to your Library. Not in a released Clips Kitty yet. `AGPL-3.0-or-later` · ✓ Official · runs locally · needs technical setup (command line or Python)  
+- [Clips Kitty Autopilot](https://github.com/ColinGPT9/clips-kitty-autopilot) - A self-hosted web app that watches a Twitch channel's viewer-made clips, makes the ones that reach your view target into whole vertical clips, and schedules them to your social accounts after you approve. Started from Clips Kitty's code; you bring your own keys. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python) · ★ 0 on GitHub
+- [Clips Kitty Basketball with NVIDIA Nemotron](https://github.com/ColinGPT9/clips-kitty-nebius-basketball) - An edition of Clips Kitty whose Sports > Basketball pipeline uses NVIDIA Nemotron on Nebius Token Factory, on your own key, to pick the plays and write the titles. One NBA game cost under a cent. Built for the Nebius x NVIDIA Global AI Hackathon. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python) · ★ 3 on GitHub
+- [Clips Kitty Editor](https://github.com/ColinGPT9/clips-kitty-editor) - The video editor inside Clips Kitty's Editor page. Open a clip, then cut it on a timeline with captions, text, keyframes and effects, and export it back to your Library. Not in a released Clips Kitty yet. `AGPL-3.0-or-later` · ✓ Official · runs locally · needs technical setup (command line or Python) · ★ 0 on GitHub  
   Licence note: A modified build of Concat by jub0t, renamed as Concat's trademark policy asks. Concat's licence and notices are kept. Not made or endorsed by Concat's authors.
-- [Clips Kitty Game Day](https://github.com/ColinGPT9/clips-kitty-gameday) - Turns a basketball game into vertical clips with Meta's models (Muse Voice Transcribe, Muse Spark and SAM 3.1), and asks on your phone before posting to Instagram and Facebook. An edition of Clips Kitty, built for the Meta Global AI Developer Hackathon. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python)
+- [Clips Kitty Game Day](https://github.com/ColinGPT9/clips-kitty-gameday) - Turns a basketball game into vertical clips with Meta's models (Muse Voice Transcribe, Muse Spark and SAM 3.1), and asks on your phone before posting to Instagram and Facebook. An edition of Clips Kitty, built for the Meta Global AI Developer Hackathon. `AGPL-3.0-or-later` · ✓ Official · local or cloud · needs technical setup (command line or Python) · ★ 3 on GitHub
 
 ## Pipelines
 
@@ -55,29 +55,29 @@ _Complete applications that use the Clips Kitty API or SDK, or are built from it
 
 _Pipelines for any kind of video._
 
-- [Loud moments, cut on scene changes (example)](https://github.com/ColinGPT9/clips-studio/tree/HEAD/examples/pipelines/scene-cut-highlights) - An example pipeline. It finds stretches that are clearly louder than the rest of the video and starts each clip on the nearest scene cut before it, using FFmpeg only. It knows nothing about what is happening on screen: loud is not always interesting, and quiet highlights are missed. `MIT` · ✓ Official · ✓ Compatible · ★ 272 on GitHub
+- [Loud moments, cut on scene changes (example)](https://github.com/ColinGPT9/clips-studio/tree/HEAD/examples/pipelines/scene-cut-highlights) - An example pipeline. It finds stretches that are clearly louder than the rest of the video and starts each clip on the nearest scene cut before it, using FFmpeg only. It knows nothing about what is happening on screen: loud is not always interesting, and quiet highlights are missed. `MIT` · ✓ Official · ✓ Compatible · ★ 621 on GitHub
 
 ### Gaming
 
 #### Grand Theft Auto
 
-- [Grand Theft Auto 6 Clips Kitty Plugin](https://github.com/ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin) - An unofficial, independently developed GTA-style highlight pipeline. Finds explicit chase, crash, stunt, combat and reaction cues, plus source-grounded dialogue suggestions from the existing local model. Uses the host transcript, measured picture and sound changes and permitted viewer nominations. It does not recognize vehicles or police from pixels and has not been validated on GTA VI gameplay. Rendering stays in Clips Kitty. `MIT` · ✓ Official · ★ 4 on GitHub
+- [Grand Theft Auto 6 Clips Kitty Plugin](https://github.com/ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin) - An unofficial, independently developed GTA-style highlight pipeline. Finds explicit chase, crash, stunt, combat and reaction cues, plus source-grounded dialogue suggestions from the existing local model. Uses the host transcript, measured picture and sound changes and permitted viewer nominations. It does not recognize vehicles or police from pixels and has not been validated on GTA VI gameplay. Rendering stays in Clips Kitty. `MIT` · ✓ Official · ★ 50 on GitHub
 
 ## Integrations
 
 ### Streaming
 
-- [Clips Kitty OBS Plugin](https://github.com/ColinGPT9/clips-kitty-obs-plugin) - An OBS Studio dock that hands your stream to Clips Kitty once it really ends and shows the progress. Nothing runs while you are live. Pre-release. Needs Clips Kitty 1.2.0 or newer. `GPL-2.0-or-later` · ✓ Official · runs locally · ★ 0 on GitHub
+- [Clips Kitty OBS Plugin](https://github.com/ColinGPT9/clips-kitty-obs-plugin) - An OBS Studio dock that hands your stream to Clips Kitty once it really ends and shows the progress. Nothing runs while you are live. Pre-release. Needs Clips Kitty 1.2.0 or newer. `GPL-2.0-or-later` · ✓ Official · runs locally · ★ 1 on GitHub
 
 ### AI assistants
 
-- [Clips Kitty MCP server and agent skill](https://github.com/ColinGPT9/clips-studio#ask-an-ai-agent-to-do-it) - Lets Claude, Cursor or any MCP client make clips from a link or a file, follow the job and read back the clips, through Clips Kitty's local API. Its tools can also post clips through the accounts connected in Clips Kitty. Ships with Clips Kitty. `AGPL-3.0-or-later` · ✓ Official · runs locally · ★ 272 on GitHub
+- [Clips Kitty MCP server and agent skill](https://github.com/ColinGPT9/clips-studio#ask-an-ai-agent-to-do-it) - Lets Claude, Cursor or any MCP client make clips from a link or a file, follow the job and read back the clips, through Clips Kitty's local API. Its tools can also post clips through the accounts connected in Clips Kitty. Ships with Clips Kitty. `AGPL-3.0-or-later` · ✓ Official · runs locally · ★ 621 on GitHub
 
 ## Tools
 
 ### For developers
 
-- [Clips Kitty SDK for Python](https://github.com/ColinGPT9/clips-studio/tree/HEAD/sdk/python) - Write, check and test Clips Kitty plugins - the manifest validator, a local test host, and a client for the local API. MIT-licensed, so using it puts no licence on your plugin. `MIT` · ✓ Official · runs locally · ★ 272 on GitHub
+- [Clips Kitty SDK for Python](https://github.com/ColinGPT9/clips-studio/tree/HEAD/sdk/python) - Write, check and test Clips Kitty plugins - the manifest validator, a local test host, and a client for the local API. MIT-licensed, so using it puts no licence on your plugin. `MIT` · ✓ Official · runs locally · ★ 621 on GitHub
 
 ## Wanted
 
