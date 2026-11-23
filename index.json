@@ -38,6 +38,39 @@
    "uses": "code"
   },
   {
+   "added": "2026-11-23",
+   "badges": [
+    "official"
+   ],
+   "checked": "2026-11-23",
+   "description": "The video editor inside Clips Kitty's Editor page. Open a clip, then cut it on a timeline with captions, text, keyframes and effects, and export it back to your Library. Not in a released Clips Kitty yet.",
+   "id": "apps/clips-kitty-editor",
+   "kind": "app",
+   "license": "AGPL-3.0-or-later",
+   "license_note": "A modified build of Concat by jub0t, renamed as Concat's trademark policy asks. Concat's licence and notices are kept. Not made or endorsed by Concat's authors.",
+   "metrics": {},
+   "name": "Clips Kitty Editor",
+   "platforms": [
+    "windows"
+   ],
+   "relationship": "built-with",
+   "runs": "local",
+   "section": "built-with",
+   "setup": "technical",
+   "slug": "clips-kitty-editor",
+   "source": {
+    "github": "https://github.com/ColinGPT9/clips-kitty-editor"
+   },
+   "tags": [
+    "video-editor",
+    "timeline",
+    "captions",
+    "keyframes",
+    "vertical-video"
+   ],
+   "uses": "api"
+  },
+  {
    "added": "2026-11-20",
    "badges": [
     "official"
