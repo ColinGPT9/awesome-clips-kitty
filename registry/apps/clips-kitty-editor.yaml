@@ -1,0 +1,15 @@
+name: Clips Kitty Editor
+description: The video editor inside Clips Kitty's Editor page. Open a clip, then cut it on a timeline with captions, text, keyframes and effects, and export it back to your Library. Not in a released Clips Kitty yet.
+section: built-with
+relationship: built-with
+uses: api
+license: AGPL-3.0-or-later
+license_note: A modified build of Concat by jub0t, renamed as Concat's trademark policy asks. Concat's licence and notices are kept. Not made or endorsed by Concat's authors.
+source:
+  github: https://github.com/ColinGPT9/clips-kitty-editor
+platforms: [windows]
+runs: local
+setup: technical
+tags: [video-editor, timeline, captions, keyframes, vertical-video]
+added: 2026-11-23
+checked: 2026-11-23
